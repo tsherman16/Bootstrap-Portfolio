@@ -1,0 +1,50 @@
+.container {
+    background-color: white;
+    position: relative;
+
+}
+
+.nav1 {
+    position: absolute;
+    right: 0;
+
+}
+
+.navbar-brand {
+    background-color: #4aaaa5;
+    padding: 20px;
+
+}
+
+.background {
+    background-color: gray;
+
+}
+
+.background-2 {
+    background-color: gray;
+}
+
+.media {
+    background-color: white;
+    width: 50%;
+    padding: 20px;
+
+}
+
+.footer {
+    clear: both;
+    text-align: center;
+    background-color: #666;
+    color: white;
+    padding: 15px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+
+}
+
+.copyright {
+    font-size: 10px;
+    margin: 0;
+}
