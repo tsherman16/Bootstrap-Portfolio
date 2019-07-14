@@ -37,17 +37,23 @@
 }
 
 .footer {
-    text-align: center;
     background-color: #666;
     color: white;
-    padding: 15px;
+    padding: 20px;
     border-top-style: solid;
     border-width: thick;
     border-color: #4aaaa5;
 
 }
 
+.writing {
+    position: relative;
+
+}
+
 .copyright {
     font-size: 10px;
-    margin: 0;
+    position: absolute;
+    right: 50%;
+    
 }
