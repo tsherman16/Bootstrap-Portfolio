@@ -1,3 +1,8 @@
+.background {
+    background-color: gray;
+
+}
+
 .container {
     background-color: white;
     position: relative;
@@ -13,18 +18,41 @@
 .navbar-brand {
     background-color: #4aaaa5;
     padding: 20px;
+    font-family: 'Georgia', Times, "Times New Roman", serif;
+    font-weight: bold;
+
+}
+
+.size {
+    width: 700px;
+
+}
+
+.formTitle {
+    font-family: 'Georgia', Times, "Times New Roman", serif;
+    font-weight: bold;
+    color: #4aaaa5;
+
+}
+
+.image {
+    position: relative;
+
+}
+
+.imgTitle {
+    position: absolute;
 
 }
 
 .footer {
-    clear: both;
     text-align: center;
     background-color: #666;
     color: white;
     padding: 15px;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
+    border-top-style: solid;
+    border-width: thick;
+    border-color: #4aaaa5;
 
 }
 

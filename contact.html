@@ -11,46 +11,60 @@
     <title>Document</title>
 </head>
 
-<body>
+<body class="background">
 
-    <div class="container">
-        <nav class="navbar navbar-expand-lg navbar-light bg-white">
-            <a class="navbar-brand" href="#">Tim Sherman</a>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-white">
+        <div class="container">
+            <h1 class="navbar-brand">Tim Sherman</h1>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
                 aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav nav1">
-                    <a class="nav-item nav-link active"
-                        href="/Users/timsherman/code/homework/Homework-2/index.html">About <span
-                            class="sr-only">(current)</span></a>
+                    <a class="nav-item nav-link" href="/Users/timsherman/code/homework/Homework-2/index.html">About
+                        <span class="sr-only">(current)</span></a>
                     <a class="nav-item nav-link"
                         href="/Users/timsherman/code/homework/Homework-2/portfolio.html">Portfolio</a>
                     <a class="nav-item nav-link"
                         href="/Users/timsherman/code/homework/Homework-2/Contact.html">Contact</a>
                 </div>
             </div>
-        </nav>
+        </div>
+    </nav>
+
+
+    <div class="container border border-light entireForm">
+        <div class="row">
+            <h3 class="formHeader ml-3">Contact</h3>
+        </div>
+        <hr style="height:10px">
+        <div class="row">
+            <div class="col">
+                <form>
+                    <div class="form-group">
+                        <label for="exampleFormControlInput1">Name</label>
+                        <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="John Smith">
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleFormControlInput1">Email address</label>
+                        <input type="email" class="form-control" id="exampleFormControlInput1"
+                            placeholder="name@example.com">
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleFormControlTextarea1">Message</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="6"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-color">Submit</button>
+                </form>
+
+            </div>
+        </div>
     </div>
 
-    <form>
-        <div class="form-group">
-            <label for="exampleFormControlInput1">Name</label>
-            <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="John Smith">
-        </div>
-        <div class="form-group">
-            <label for="exampleFormControlInput1">Email address</label>
-            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-        </div>
-        <div class="form-group">
-            <label for="exampleFormControlTextarea1">Message</label>
-            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-        </div>
-    </form>
-
-    <div class="footer">
-        <p class="copyright">Copyright</p>
+    <div class="footer fixed-bottom">
+        <p class="copyright">Copyright&copy</p>
     </div>
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
